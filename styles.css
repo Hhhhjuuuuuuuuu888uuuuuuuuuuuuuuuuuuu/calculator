@@ -1,0 +1,80 @@
+body {
+    background-color: burlywood;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 250px;
+}
+
+.tes1{
+    background-color: rgb(198, 201, 45);
+    height: 200px;
+    width: 300px;
+}
+
+.tes2{
+    background-color: rgb(224, 99, 120);
+    height: 50px;
+    width: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+}
+
+.tes{
+    background-color: rgb(47, 6, 53);
+    height: 180px;
+    width: 250px;
+    padding-left: 40px;
+    padding-right: 10px;
+    padding-top: 20px;
+     border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    
+}
+
+#tes{
+    background-color: rgb(219, 216, 215);
+    border: none;
+    border-radius: 5px;
+    height: 30px;
+    font-weight: bold;
+    width: 250px;
+    padding-left: 10px;
+}
+#tes:hover{
+    font-weight: bolder;
+    font-size: 15px;
+    transition: 0.5s ease;
+    cursor: pointer;
+}
+
+#tes:active{
+    border: 10px red;
+   
+}
+
+.btnn {
+    height: 30px;
+    width: 50px;
+    background-color: black;
+    color: white;
+    font-weight: bolder;
+    margin-bottom: 2px;
+    border-radius: 5px;
+    transition: 0.5s ease;
+
+}
+
+.btnn:hover{
+    background-color: rgb(73, 70, 70);
+    cursor: pointer;
+    transition: 0.5s ease;
+}
+
+.btnn:active{
+    background-color: rgb(56, 20, 20);
+    cursor: pointer;
+}

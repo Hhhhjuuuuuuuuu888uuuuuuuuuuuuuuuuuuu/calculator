@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <div class="tes1">
+        <div class="tes2">
+            <input type="text" placeholder="calculate..." id="tes">
+        </div>
+
+        <div class="tes">
+            
+            <input class="btnn" type="button" value="Del" onclick="tes.value = tes.value = '' ">
+            <input class="btnn" type="button" value="(" onclick="tes.value += '('">
+            <input class="btnn" type="button" value=")" onclick="tes.value += ')'">
+            <input class="btnn" type="button" value="×" onclick="tes.value += '*'"><br>
+            <input class="btnn" type="button" value="1" onclick="tes.value += '1'">
+            <input class="btnn" type="button" value="2" onclick="tes.value += '2'">
+            <input class="btnn" type="button" value="3" onclick="tes.value += '3'">
+            <input class="btnn" type="button" value="+" onclick="tes.value += '+'"><br>
+            <input class="btnn" type="button" value="4" onclick="tes.value += '4'">
+            <input class="btnn" type="button" value="5" onclick="tes.value += '5'">
+            <input class="btnn" type="button" value="6" onclick="tes.value += '6'">
+            <input class="btnn" type="button" value="-" onclick="tes.value += '-'"><br>
+            <input class="btnn" type="button" value="7" onclick="tes.value += '7'">
+            <input class="btnn" type="button" value="8" onclick="tes.value += '8'">
+            <input class="btnn" type="button" value="9" onclick="tes.value += 3*3">
+            <input class="btnn" type="button" value="÷" onclick="tes.value += '/'"><br>
+            <input class="btnn" type="button" value="0" onclick="tes.value += '0'">
+            <input class="btnn" type="button" value="." onclick="tes.value += '.'">
+            <input class="btnn" type="button" value="+/-" onclick="tes.value += '-'">
+            <input class="btnn" type="button" value="=" onclick="tes.value = eval(tes.value)">
+        </div>
+    </div>
+    
+</body>
+</html>
